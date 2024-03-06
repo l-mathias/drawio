@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T11:28:52.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="Vd3J1-skW4YFX12OgMwC" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T11:31:50.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="PlhWny0KlSUvV44YTKM0" version="24.0.2" type="github">
   <diagram name="Page-1" id="qO7JqH-wDl58y_Bdmb8k">
     <mxGraphModel dx="996" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -19,31 +19,31 @@
         <mxCell id="etcd3" value="etcd Node 3" style="rounded=1;fillColor=#66CCFF;" vertex="1" parent="1">
           <mxGeometry x="750" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="devWorker" value="Development Workers&#xa;3 nodes&#xa;8 cores / 32Gb RAM" style="rounded=1;fillColor=#99CC99;" vertex="1" parent="1">
+        <mxCell id="devWorker" value="Development Workers&#xa;3 nodes&#xa;8 cores / 32Gb RAM" style="rounded=1;fillColor=#99CC99;gradientColor=none;shadow=0;textShadow=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="330" width="180" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="intWorker" value="Integration Workers&#xa;2 nodes&#xa;8 cores / 32Gb RAM" style="rounded=1;fillColor=#99CC99;" vertex="1" parent="1">
+        <mxCell id="intWorker" value="Integration Workers&#xa;2 nodes&#xa;8 cores / 32Gb RAM" style="rounded=1;fillColor=#99CC99;gradientColor=none;shadow=0;textShadow=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="330" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="accWorker" value="Acceptance Workers&#xa;3 nodes&#xa;8 cores / 32Gb RAM" style="rounded=1;fillColor=#99CC99;" vertex="1" parent="1">
+        <mxCell id="accWorker" value="Acceptance Workers&#xa;3 nodes&#xa;8 cores / 32Gb RAM" style="rounded=1;fillColor=#99CC99;shadow=0;textShadow=0;glass=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="700" y="330" width="180" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="prodWorker" value="Production Workers&#xa;3 nodes&#xa;8 cores / 32Gb RAM" style="rounded=1;fillColor=#99CC99;" vertex="1" parent="1">
+        <mxCell id="prodWorker" value="Production Workers&#xa;3 nodes&#xa;8 cores / 32Gb RAM" style="rounded=1;fillColor=#99CC99;gradientColor=none;shadow=0;textShadow=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="330" width="180" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="istio" value="Istio" style="ellipse;fillColor=#F9D423;" vertex="1" parent="1">
+        <mxCell id="istio" value="Istio" style="ellipse;fillColor=#F9D423;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="400" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="prometheus" value="Prometheus" style="ellipse;fillColor=#F9D423;" vertex="1" parent="1">
+        <mxCell id="prometheus" value="Prometheus" style="ellipse;fillColor=#F9D423;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="330" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ingress" value="Ingress Controller" style="ellipse;fillColor=#F9D423;" vertex="1" parent="1">
+        <mxCell id="ingress" value="Ingress Controller" style="ellipse;fillColor=#F9D423;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="470" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nfs" value="NFS Storage" style="rounded=1;fillColor=#FF7043;" vertex="1" parent="1">
           <mxGeometry x="160" y="540" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sjceRTjy-6kXETGA8qCM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="bigipF5" target="devWorker">
+        <mxCell id="sjceRTjy-6kXETGA8qCM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="bigipF5" target="devWorker">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="660" y="530" />
@@ -51,7 +51,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sjceRTjy-6kXETGA8qCM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" target="intWorker">
+        <mxCell id="sjceRTjy-6kXETGA8qCM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" target="intWorker">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="530" as="sourcePoint" />
             <Array as="points">
@@ -59,10 +59,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bigipF5" value="BigIP F5" style="ellipse;fillColor=#E91E63;" vertex="1" parent="1">
+        <mxCell id="bigipF5" value="BigIP F5" style="ellipse;fillColor=#E91E63;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="585" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sjceRTjy-6kXETGA8qCM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.546;entryY=1.041;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;strokeWidth=2;" edge="1" parent="1" source="bigipF5" target="accWorker">
+        <mxCell id="sjceRTjy-6kXETGA8qCM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.546;entryY=1.041;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;strokeWidth=2;" edge="1" parent="1" source="bigipF5" target="accWorker">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="660" y="530" />
@@ -70,7 +70,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sjceRTjy-6kXETGA8qCM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.548;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="bigipF5" target="prodWorker">
+        <mxCell id="sjceRTjy-6kXETGA8qCM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.548;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="bigipF5" target="prodWorker">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="660" y="530" />
